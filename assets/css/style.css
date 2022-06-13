@@ -1,0 +1,81 @@
+/* General */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+  }
+  
+  /* Input Forms*/
+  input[type="text"], input[type="password"]{
+    outline: none;
+    padding: 20px;
+    display: block;
+    width: 300px;
+    border-radius: 3px;
+    border: 1px solid rgb(31, 8, 134);
+    margin: 20px auto;
+  }
+  
+  input[type="submit"] {
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    background: #fafbfc;
+    width: 320px;
+    margin: 20px auto;
+    margin-top: 0;
+    border: 0;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  input[type="submit"]:hover {
+    background-color: #4cbad8;
+  }
+  
+  /* Header */
+  header {
+    border-bottom: 2px solid #eee;
+    padding: 20px 0;
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: center;
+  }
+  header a {
+    text-decoration: none;
+    color: #333;
+  }
+  .button {
+    background-color: #fe4918;
+    padding: 10px 40px;
+    text-decoration: none;
+    font-family: Oswald,sans-serif;
+    font-weight: 700;
+    color: #fff;
+    font-size: 1em;
+    margin-top: 20px;
+    display: inline-block;
+    transition: all .6s ease;
+    border: 2px solid #fe4918;
+  }
+  .button.hollow,
+  .button.hollow:hover {
+    background-color: white;
+    color: #fe4918;
+  }
+
+  h3 {
+    font-size: 1.8em;
+    color: #0a1bb3;
+    font-family: 'PT Sans', sans-serif;
+    margin: 0;
+  }
+
+  h5 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.0 em;
+    color: #c9210b;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  
